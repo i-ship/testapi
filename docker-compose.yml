@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  api:
+    image: ishippwcacr.azurecr.io/api:v1
+    build:
+      context: .
+      dockerfile: api/Dockerfile
